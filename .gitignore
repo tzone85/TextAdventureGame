@@ -1,4 +1,3 @@
-
 # VXD agent artifacts (auto-added)
 CLAUDE.md
 .vxd-prompts/
@@ -29,3 +28,10 @@ TextAdventureGame/target/site/jacoco/jacoco-resources/sort.gif
 TextAdventureGame/target/site/jacoco/jacoco-resources/source.gif
 TextAdventureGame/target/site/jacoco/jacoco-resources/up.gif
 TextAdventureGame/target/test-classes/io/vxd/textadventure/SmokeTest.class
+TextAdventureGame/target/classes/Game.class
+TextAdventureGame/target/classes/io/vxd/textadventure/application/parser/Command.class
+TextAdventureGame/target/classes/io/vxd/textadventure/application/parser/Parser$ParseResult.class
+TextAdventureGame/target/classes/io/vxd/textadventure/application/parser/Parser.class
+TextAdventureGame/target/classes/io/vxd/textadventure/application/parser/Verb.class
+TextAdventureGame/target/test-classes/io/vxd/textadventure/application/parser/ParserTest.class
+TextAdventureGame/target/test-classes/io/vxd/textadventure/application/parser/VerbTest.class

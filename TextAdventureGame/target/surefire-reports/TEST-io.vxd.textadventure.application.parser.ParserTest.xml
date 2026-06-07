@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.vxd.textadventure.application.parser.ParserTest" time="0.013" tests="35" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/test-classes:/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/classes:/Users/mncedimini/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mncedimini/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/surefire/surefirebooter-20260607174011462_3.jar /Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/surefire 2026-06-07T17-40-11_326-jvmRun1 surefire-20260607174011462_1tmp surefire_0-20260607174011462_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/test-classes:/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/classes:/Users/mncedimini/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/mncedimini/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mncedimini"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/target/surefire/surefirebooter-20260607174011462_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.9+10-LTS"/>
+    <property name="user.name" value="mncedimini"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.9+10"/>
+    <property name="localRepository" value="/Users/mncedimini/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/c6/glx6jmn921v8nmhzrcrjs4tm0000gn/T/"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mncedimini/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.9+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testParseDirectionShortcutE" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseDirectionShortcutN" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseDirectionShortcutS" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseDirectionShortcutW" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseInventory" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseGoMove" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseBlankInput" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseLookAt" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseTalkTo" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseGoWithDirection" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseExit" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseLoad" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseQuit" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseSave" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseTalk" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParsePutXInY" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParsePutXOnY" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseUseXOnY" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseUseObject" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseUnknownVerbWithObject" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseInventorySynonym" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseWhitespaceOnlyInput" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseUnknownVerb" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseLookSynonym" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseDirectionDown" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseGetObject" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseDirectionUp" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseMixedCase" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseMixedCaseWithObject" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParsePickUpMultiWord" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseSimpleLook" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseSimpleTake" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseTakeObject" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+  <testcase name="testParseNeverThrows" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.001"/>
+  <testcase name="testParseExamine" classname="io.vxd.textadventure.application.parser.ParserTest" time="0.0"/>
+</testsuite>
