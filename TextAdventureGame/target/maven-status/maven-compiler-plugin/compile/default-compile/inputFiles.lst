@@ -2,3 +2,14 @@
 /Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/src/main/java/io/vxd/textadventure/application/parser/Parser.java
 /Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/src/main/java/io/vxd/Game.java
 /Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-003/TextAdventureGame/src/main/java/io/vxd/textadventure/application/parser/Command.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/infrastructure/world/YamlSchema.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/Room.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/infrastructure/world/WorldMapper.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/Predicate.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/WorldDefinition.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/Ending.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/WorldEvent.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/Npc.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/domain/world/Item.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/infrastructure/world/WorldValidationException.java
+/Users/mncedimini/.vxd/projects/textadventuregame/worktrees/01KTHB4A-s-004/TextAdventureGame/src/main/java/io/vxd/textadventure/infrastructure/world/WorldLoader.java
