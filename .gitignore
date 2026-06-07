@@ -9,3 +9,23 @@ firebase-debug.log
 WAVE_CONTEXT.md
 REQUIREMENT.md
 vxd.yaml
+
+# auto-detected binaries (stripped by vxd)
+TextAdventureGame/target/jacoco.exec
+TextAdventureGame/target/site/jacoco/jacoco-resources/branchfc.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/branchnc.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/branchpc.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/bundle.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/class.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/down.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/greenbar.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/group.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/method.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/package.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/redbar.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/report.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/session.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/sort.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/source.gif
+TextAdventureGame/target/site/jacoco/jacoco-resources/up.gif
+TextAdventureGame/target/test-classes/io/vxd/textadventure/SmokeTest.class
