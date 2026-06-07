@@ -1,0 +1,5 @@
+io/vxd/textadventure/application/parser/Command.class
+Game.class
+io/vxd/textadventure/application/parser/Verb.class
+io/vxd/textadventure/application/parser/Parser$ParseResult.class
+io/vxd/textadventure/application/parser/Parser.class

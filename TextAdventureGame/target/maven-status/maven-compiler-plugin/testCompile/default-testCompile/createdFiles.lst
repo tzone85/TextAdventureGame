@@ -1,1 +1,3 @@
 io/vxd/textadventure/SmokeTest.class
+io/vxd/textadventure/application/parser/ParserTest.class
+io/vxd/textadventure/application/parser/VerbTest.class
