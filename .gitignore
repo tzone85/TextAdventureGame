@@ -55,3 +55,16 @@ TextAdventureGame/target/classes/io/vxd/textadventure/infrastructure/world/YamlS
 TextAdventureGame/target/classes/io/vxd/textadventure/infrastructure/world/YamlSchema$WorldDto.class
 TextAdventureGame/target/classes/io/vxd/textadventure/infrastructure/world/YamlSchema.class
 TextAdventureGame/target/test-classes/io/vxd/textadventure/infrastructure/world/WorldLoaderTest.class
+
+# Build artifacts
+target/
+*.class
+*.jar
+*.log
+
+# IDE
+.idea/
+*.iml
+
+# Misc
+.DS_Store
