@@ -1,0 +1,92 @@
+start_room: foyer
+start_inventory: []
+
+rooms:
+  foyer:
+    id: foyer
+    title: Grand Foyer
+    description: You stand in the grand foyer of an old manor. Sunlight streams through tall windows. To the north is a library, and down the stone stairs is the cellar.
+    exits:
+      north: library
+      down: cellar
+      east: attic
+
+  library:
+    id: library
+    title: Library
+    description: Shelves of ancient books line the walls. A worn wooden desk sits in the corner. You can return south to the foyer.
+    exits:
+      south: foyer
+
+  cellar:
+    id: cellar
+    title: Dark Cellar
+    description: The cellar is cold and damp. Old wine racks line the walls. The stairs lead back up to the foyer.
+    exits:
+      up: foyer
+
+  attic:
+    id: attic
+    title: Dusty Attic
+    description: The attic is filled with forgotten memories - old trunks, paintings, and cobwebs. You can return west to the foyer.
+    exits:
+      west: foyer
+
+items:
+  bag:
+    id: bag
+    name: Leather Bag
+    description: A sturdy leather bag suitable for carrying items
+    is_container: true
+
+  key:
+    id: key
+    name: Golden Key
+    description: An ornate golden key with intricate patterns
+    is_container: false
+
+  torch:
+    id: torch
+    name: Rusty Torch
+    description: An old torch that might illuminate the darkness
+    is_container: false
+
+  ring:
+    id: ring
+    name: Ruby Ring
+    description: A beautiful ring with a large ruby stone
+    is_container: false
+
+npcs:
+  butler:
+    id: butler
+    name: Mr. Pemberton
+    description: An elderly butler who guards the manor's secrets
+
+events:
+  - id: unlock_cellar
+    trigger: use_key_on_cellar
+    predicates:
+      - type: has_item
+        value: key
+    action: The golden key unlocks the cellar door. You descend carefully into the darkness.
+
+  - id: find_treasure
+    trigger: examine_cellar
+    predicates:
+      - type: location
+        value: cellar
+    action: In a hidden corner of the cellar, you discover an ancient chest filled with gold and jewels!
+
+endings:
+  - id: treasure_found
+    type: WIN
+    message: "You found the hidden treasure and escape the manor with your riches. Victory!"
+
+  - id: secret_discovered
+    type: WIN
+    message: "You uncover the manor's greatest secret and leave enlightened. Success!"
+
+  - id: lost_forever
+    type: LOSE
+    message: "You wander the halls endlessly, never finding the way out. The manor keeps you as its own."
